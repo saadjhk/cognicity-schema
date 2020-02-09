@@ -37,7 +37,7 @@ CREATE TABLE cognicity.instance_regions(
 );
 
 -- Add Geometry column to instance_regions
-SELECT AddGeometryColumn ('cognicity', 'instance_regions', 'the_geom', 4326, 'POLYGON', 2);
+SELECT AddGeometryColumn ('cognicity', 'instance_regions', 'the_geom', 4326, 'MULTIPOLYGON', 2);
 ALTER TABLE cognicity.instance_regions ALTER COLUMN the_geom SET NOT NULL;
 
 -- Add a GIST spatial index
