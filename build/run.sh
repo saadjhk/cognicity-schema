@@ -5,13 +5,13 @@ set -e
 
 # Config
 PGHOST=${PGHOST:-'localhost'}
-PGUSER=${PGUSER:-'postgres'}
-COUNTRY=${COUNTRY:-'id'}
+PGUSER=${PGUSER:-'saadjhk'}
+COUNTRY=${COUNTRY:-'pk'}
 PGDATABASE=${PGDATABASE:-'cognicity'}
 PGPORT=${PGPORT:-'5432'}
 PG_DEFAULT_DB=${PG_DEFAULT_DB:-'postgres'}
 
-DATA=${DATA:-true} # optional load data flag (set false to skip data loading)
+DATA=${DATA:-false} # optional load data flag (set false to skip data loading)
 FUNCTIONS=${FUNCTIONS:-true} # optional load functions flag
 SCHEMA=${SCHEMA:-true} #optional schema flag
 
