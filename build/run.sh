@@ -5,7 +5,7 @@ set -e
 
 # Config
 PGHOST=${PGHOST:-'localhost'}
-PGUSER=${PGUSER:-'saadjhk'}
+PGUSER=${PGUSER:-'postgres'}
 COUNTRY=${COUNTRY:-'pk'}
 PGDATABASE=${PGDATABASE:-'cognicity'}
 PGPORT=${PGPORT:-'5432'}
